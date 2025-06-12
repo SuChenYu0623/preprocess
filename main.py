@@ -1,4 +1,3 @@
-import concurrent.futures
 from typing import Dict
 import requests
 from pymongo import MongoClient
@@ -6,10 +5,10 @@ import hashlib
 import csv
 from io import BytesIO
 import requests
-from PIL import Image
-from typing import List, Optional
-from pydantic import BaseModel, Field
 import time
+from typing import List
+from pydantic import BaseModel
+from PIL import Image
 
 
 class MongoSetting(BaseModel):
