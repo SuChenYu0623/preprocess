@@ -1,0 +1,9 @@
+prcessed_images/
+source_images/
+__pycache__/
+data/
+myData/
+newsDataset*/
+*.csv
+*.txt
+image_list/
