@@ -1,0 +1,7 @@
+{
+    "python.formatting.yapfPath": "/home/chris/.local/bin/yapf",
+    "python.formatting.provider": "yapf",  
+    "python.formatting.yapfArgs": ["--style", "pep8"],
+    "editor.formatOnSave": true
+}
+  
